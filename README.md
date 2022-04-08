@@ -1,4 +1,6 @@
-# About IonSim
+![IonSim logo](images/logo3_SM.png)
+
+# IonSim
 
 IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performant, quantitatively faithful tool for simulating fundamental interactions in trapped ion experiments. Several ion species and trap configurations are implemented. Everything is written in the language of experimentalists (ions and lasers, not qubits and gates).
 
