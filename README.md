@@ -9,7 +9,7 @@ IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performan
 * *Flexible*: Full control over RWA cutoff frequencies, Lamb-Dicke order approximations, Hilbert space truncation and methods.
 * *Open Source*: All source code is freely available and built with extensibility in mind.
 
-<iframe src="https://ghbtns.com/github-btn.html?user=HaeffnerLab&repo=IonSim.jl&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=HaeffnerLab&repo=IonSim.jl&type=star&count=true&size=medium" frameborder="0" scrolling="0" width="170" height="30" title="GitHub" style="padding-bottom: 10px;"></iframe>
 
 # Downloading
 
@@ -54,8 +54,6 @@ Alternatively, one may construct a DynamicalProblem, which itself can be given a
 
 [All documentation is here](https://docs.ionsim.org/dev/).
 
-[Check out a number of examples here](https://examples.ionsim.org/).
-
 The code is MIT-licensed; find the code [on GitHub](https://github.com/HaeffnerLab/IonSim.jl).
 
 # Planned features
@@ -73,4 +71,8 @@ IonSim is maintained by [Hartmut Haeffner's trapped ion group](https://ions.berk
 If you'd like to contribute to IonSim.jl, head over to our [GitHub page](https://github.com/HaeffnerLab/IonSim.jl).
 * If you have a good idea of what you'd like to do and how to do it, the preferred method is to submit a pull request on GitHub.
 * If you're less sure about your ideas, would like some feedback, or want to open up a discussion, then feel free to open an issue on GitHub.
+
+# Examples
+
+[Check out a number of examples here](https://examples.ionsim.org/).
 
