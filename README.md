@@ -1,4 +1,4 @@
-# IonSim
+# About IonSim
 
 IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performant, quantitatively faithful tool for simulating fundamental interactions in trapped ion experiments. Several ion species and trap configurations are implemented. Everything is written in the language of experimentalists (ions and lasers, not qubits and gates).
 
@@ -7,7 +7,7 @@ IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performan
 * *Flexible*: Full control over RWA cutoff frequencies, Lamb-Dicke order approximations, Hilbert space truncation and methods.
 * *Open Source*: All source code is freely available and built with extensibility in mind.
 
-## Downloading
+# Downloading
 
 If you haven't done so already, download [Julia](https://julialang.org/) (platform specific instructions can be found [here](https://julialang.org/downloads/)). Next, open the Julia app, which should launch a [REPL](https://docs.julialang.org/en/v1/stdlib/REPL/#The-Julia-REPL-1) session, and install IonSim using the following commands:
 
@@ -35,7 +35,7 @@ Updating to the latest version of IonSim is easy:
 Pkg.update("IonSim")
 ```
 
-## What is IonSim?
+# Documentation
 
 IonSim.jl is a tool to simulate the dynamics of a collection of trapped ions interacting with laser light.
 
@@ -47,7 +47,6 @@ This functional form of the Hamiltonian can then be used either as input to any 
 
 Alternatively, one may construct a DynamicalProblem, which itself can be given as input to the native solver.
 
-## Documentation
 
 [All documentation is here](https://docs.ionsim.org/dev/).
 
@@ -55,7 +54,7 @@ Alternatively, one may construct a DynamicalProblem, which itself can be given a
 
 The code is MIT-licensed; find the code [on GitHub](https://github.com/HaeffnerLab/IonSim.jl).
 
-## Planned features for IonSim
+# Planned features
 
 In the immediate future, we plan to implement:
 * configurable ion species
@@ -63,7 +62,7 @@ In the immediate future, we plan to implement:
 
 See [our GitHub issues](https://github.com/HaeffnerLab/IonSim.jl/issues) for the full details.
 
-## Contact the developers
+# Contact the developers
 
 IonSim is maintained by [Hartmut Haeffner's trapped ion group](https://ions.berkeley.edu/) at UC Berkeley.
 
