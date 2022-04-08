@@ -9,6 +9,8 @@ IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performan
 * *Flexible*: Full control over RWA cutoff frequencies, Lamb-Dicke order approximations, Hilbert space truncation and methods.
 * *Open Source*: All source code is freely available and built with extensibility in mind.
 
+<iframe src="https://ghbtns.com/github-btn.html?user=HaeffnerLab&repo=IonSim.jl&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 # Downloading
 
 If you haven't done so already, download [Julia](https://julialang.org/) (platform specific instructions can be found [here](https://julialang.org/downloads/)). Next, open the Julia app, which should launch a [REPL](https://docs.julialang.org/en/v1/stdlib/REPL/#The-Julia-REPL-1) session, and install IonSim using the following commands:
