@@ -41,6 +41,8 @@ Pkg.update("IonSim")
 
 # Documentation
 
+[All documentation is here](https://docs.ionsim.org/dev/).
+
 IonSim.jl is a tool to simulate the dynamics of a collection of trapped ions interacting with laser light.
 
 IonSim primarily performs two jobs:
@@ -50,9 +52,6 @@ IonSim primarily performs two jobs:
 This functional form of the Hamiltonian can then be used either as input to any of the solvers implemented in QuantumOptics.timeevolution, or in the native solver. The native solver is a thin wrapper around QuantumOptics functions that implement additional checks.
 
 Alternatively, one may construct a DynamicalProblem, which itself can be given as input to the native solver.
-
-
-[All documentation is here](https://docs.ionsim.org/dev/).
 
 The code is MIT-licensed; find the code [on GitHub](https://github.com/HaeffnerLab/IonSim.jl).
 
