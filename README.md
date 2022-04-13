@@ -17,8 +17,7 @@ If you haven't done so already, download [Julia](https://julialang.org/) (platfo
 
 ```julia
 using Pkg
-Pkg.add("QuantumOptics")
-Pkg.add(PackageSpec(url="https://github.com/HaeffnerLab/IonSim.jl.git"))
+Pkg.add("IonSim")
 ```
 
 The main way you'll want to interact with IonSim is inside of a [Jupyter notebook](https://jupyter.org/). This requires [IJulia.jl](https://github.com/JuliaLang/IJulia.jl):
