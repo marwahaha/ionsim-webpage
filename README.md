@@ -2,7 +2,9 @@
 
 # IonSim
 
-IonSim.jl leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performant, quantitatively faithful tool for simulating fundamental interactions in trapped ion experiments. Several ion species and trap configurations are implemented. Everything is written in the language of experimentalists (ions and lasers, not qubits and gates).
+IonSim.jl is a lightweight Julia package for simulating the dynamics of a configuration of trapped ions interacting with laser light.
+
+IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performant, quantitatively faithful tool for simulating fundamental interactions in trapped ion experiments. Several ion species and trap configurations are implemented. Everything is written in the language of experimentalists (ions and lasers, not qubits and gates).
 
 * *Fast*: Runtimes comparable to QuTiP (Cython).
 * *Intuitive*: You set up your simulation the same way that you set up your experiments.
