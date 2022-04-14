@@ -2,7 +2,7 @@
 
 # IonSim
 
-IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performant, quantitatively faithful tool for simulating fundamental interactions in trapped ion experiments. Several ion species and trap configurations are implemented. Everything is written in the language of experimentalists (ions and lasers, not qubits and gates).
+IonSim.jl leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performant, quantitatively faithful tool for simulating fundamental interactions in trapped ion experiments. Several ion species and trap configurations are implemented. Everything is written in the language of experimentalists (ions and lasers, not qubits and gates).
 
 * *Fast*: Runtimes comparable to QuTiP (Cython).
 * *Intuitive*: You set up your simulation the same way that you set up your experiments.
@@ -11,48 +11,9 @@ IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performan
 
 <iframe src="https://ghbtns.com/github-btn.html?user=HaeffnerLab&repo=IonSim.jl&type=star&count=true&size=medium" frameborder="0" scrolling="0" width="170" height="30" title="GitHub" style="padding-bottom: 10px;"></iframe>
 
-# Downloading
-
-If you haven't done so already, download [Julia](https://julialang.org/) (platform specific instructions can be found [here](https://julialang.org/downloads/)). Next, open the Julia app, which should launch a [REPL](https://docs.julialang.org/en/v1/stdlib/REPL/#The-Julia-REPL-1) session, and install IonSim using the following commands:
-
-```julia
-using Pkg
-Pkg.add("IonSim")
-```
-
-The main way you'll want to interact with IonSim is inside of a [Jupyter notebook](https://jupyter.org/). This requires [IJulia.jl](https://github.com/JuliaLang/IJulia.jl):
-
-```julia
-Pkg.add("IJulia")
-```
-
-And finally, if you'd like to follow along with the example notebooks, you'll need at least [PyPlot.jl](https://github.com/JuliaPy/PyPlot.jl), an interface to Python's [Matplotlib](https://matplotlib.org/) library:
-
-```julia
-Pkg.add("PyPlot")
-```
-
-Updating to the latest version of IonSim is easy:
-
-```julia
-Pkg.update("IonSim")
-```
-
 # Documentation
 
-[All documentation is here](https://docs.ionsim.org/dev/).
-
-IonSim.jl is a tool to simulate the dynamics of a collection of trapped ions interacting with laser light.
-
-IonSim primarily performs two jobs:
-1. Keep track of the physical parameters necessary for describing the system, with a structure and nomenclature designed to be intuitive for experimentalists.
-2. Using these parameters, construct a function that quickly evaluates the system's Hamiltonian at a particular point in time.
-
-This functional form of the Hamiltonian can then be used either as input to any of the solvers implemented in QuantumOptics.timeevolution, or in the native solver. The native solver is a thin wrapper around QuantumOptics functions that implement additional checks.
-
-Alternatively, one may construct a DynamicalProblem, which itself can be given as input to the native solver.
-
-The code is MIT-licensed; find the code [on GitHub](https://github.com/HaeffnerLab/IonSim.jl).
+[The IonSim docs are at this link](https://docs.ionsim.org/).
 
 # Planned features
 
