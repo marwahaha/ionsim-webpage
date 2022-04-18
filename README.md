@@ -13,15 +13,15 @@ IonSim leverages [QuantumOptics.jl](https://qojulia.org/) to deliver a performan
 
 <iframe src="https://ghbtns.com/github-btn.html?user=HaeffnerLab&repo=IonSim.jl&type=star&count=true&size=medium" frameborder="0" scrolling="0" width="170" height="30" title="GitHub" style="padding-bottom: 10px;"></iframe>
 
-# Documentation
+## Documentation
 
 [The IonSim docs are at this link](https://docs.ionsim.org/).
 
-# Examples
+## Examples
 
 [Check out all of our examples here](https://examples.ionsim.org/).
 
-# Planned features
+## Planned features
 
 In the immediate future, we plan to implement:
 * configurable ion species
@@ -29,7 +29,7 @@ In the immediate future, we plan to implement:
 
 See [our GitHub issues](https://github.com/HaeffnerLab/IonSim.jl/issues) for the full details.
 
-# Contact the developers
+## Contact the developers
 
 IonSim is maintained by [Hartmut Haeffner's trapped ion group](https://ions.berkeley.edu/) at UC Berkeley.
 
